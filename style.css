@@ -1,0 +1,144 @@
+@font-face {
+  font-family: garet;
+  src: url(garet/Garet-Book.ttf);
+}
+@font-face {
+  font-family: garet-bold;
+  src: url(garet/Garet-Heavy.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: garet;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  width: 30%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  color: white;
+  background-color: #323b4c;
+  padding-left: 100px;
+}
+.photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: url(photo_axxel.jpg) center;
+}
+section {
+  width: 70%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+h3 {
+  font-size: 3rem;
+  border-bottom: white solid 1px;
+}
+p {
+  font-size: 1.5rem;
+}
+ul {
+  font-size: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.savoirfaire {
+  height: 13%;
+}
+main {
+  width: 70%;
+  height: 200vh;
+
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 5rem;
+  color: #323b4c;
+  font-weight: bold;
+  font-family: garet-bold;
+}
+h2 {
+  font-size: 3rem;
+  color: #323b4c;
+}
+.entete {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projet-etude {
+  width: 100%;
+}
+.projet-etude > h3 {
+  font-size: 3rem;
+  color: #323b4c;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: #323b4c solid 2px;
+}
+.projet-etude > p {
+  color: #323b4c;
+  font-size: 2rem;
+}
+.xp {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.xp > h3 {
+  font-size: 3rem;
+  color: #323b4c;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: #323b4c solid 2px;
+}
+.xp > h4 {
+  font-size: 2.5rem;
+  color: #323b4c;
+  font-weight: bold;
+  width: 100%;
+}
+.xp > p {
+  color: #323b4c;
+  font-size: 2rem;
+}
+.interets {
+  width: 100%;
+}
+.interets > h3 {
+  font-size: 3rem;
+  color: #323b4c;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: #323b4c solid 2px;
+}
+.interets > p {
+  color: #323b4c;
+  font-size: 2rem;
+}
+.bordure {
+  width: 100%;
+  border-bottom: #323b4c solid 2px;
+  padding-bottom: 15px;
+}
